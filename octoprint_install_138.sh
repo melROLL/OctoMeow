@@ -124,10 +124,10 @@ echo_green "# ============================="
 
 curl -fsvL \
   -o /etc/systemd/system/octoprint.service \
-  https://raw.githubusercontent.com/Nebari-xx/octoprint_installer/master/octoprint.service
+  https://raw.githubusercontent.com/melROLL/OctoMeow/main/octoprint.service
 curl -fsvL \
   -o /etc/default/octoprint \
-  https://raw.githubusercontent.com/Nebari-xx/octoprint_installer/master/octoprint.default
+ https://raw.githubusercontent.com/melROLL/OctoMeow/main/octoprint.default
 
 echo_yellow "# Build mjpg-streamer"
 git clone https://github.com/jacksonliam/mjpg-streamer.git /home/octo/mjpg-streamer
@@ -143,10 +143,10 @@ echo_green "# ================="
 echo "octo ALL=NOPASSWD: /sbin/shutdown,/bin/systemctl restart octoprint.service" >> /etc/sudoers
 curl -fsvL \
   -o /etc/systemd/system/webcam.service \
-  https://raw.githubusercontent.com/Nebari-xx/octoprint_installer/master/webcam.service
+  https://raw.githubusercontent.com/melROLL/OctoMeow/main/webcam.service
 curl -fsvL \
   -o /usr/local/bin/webcamDaemon\
-  https://raw.githubusercontent.com/Nebari-xx/octoprint_installer/master/webcamDaemon
+  https://raw.githubusercontent.com/melROLL/OctoMeow/main/webcamDaemon
 chmod +x /usr/local/bin/webcamDaemon
 
 systemctl daemon-reload
