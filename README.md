@@ -12,7 +12,8 @@ sudo chmod +x octoprint_install
 ```
 
 Script enter password for octoprint system user and pray for tit to work.
-Open http://<SERVER_IP>:5000 after script finish work
+
+Open octoprint on you browser with http://<SERVER_IP>:5000 after script finish work
 
 
 # Useful commands
