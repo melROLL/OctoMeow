@@ -7,8 +7,8 @@
 ```shell
 git clone https://github.com/melROLL/OctoMeow.git
 cd OctoMeow
-sudo chmod +x octoprint_install
-./octoprint_install
+sudo chmod +x octoprint_install.sh
+./octoprint_install.sh
 ```
 
 Script enter password for octoprint system user and pray for tit to work.
