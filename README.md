@@ -5,11 +5,20 @@
 ## Install octoprint
 
 ```shell
+su -
+wget https://raw.githubusercontent.com/melROLL/OctoMeow/main/octoprint_install.sh
+chmod +x octoprint_install.sh
+./octoprint_install.sh
+```
+or
+
+```shell
 git clone https://github.com/melROLL/OctoMeow.git
 cd OctoMeow
 sudo chmod +x octoprint_install.sh
 sudo ./octoprint_install.sh
 ```
+ 
 
 Script enter password for octoprint system user and pray for tit to work.
 
