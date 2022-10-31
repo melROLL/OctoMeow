@@ -4,14 +4,14 @@
 
 ## Install octoprint
 
+recomended : 
 ```shell
 su -
 wget https://raw.githubusercontent.com/melROLL/OctoMeow/main/octoprint_install.sh
 chmod +x octoprint_install.sh
 ./octoprint_install.sh
 ```
-or
-
+or if it doesn't work
 ```shell
 git clone https://github.com/melROLL/OctoMeow.git
 cd OctoMeow
