@@ -79,10 +79,10 @@ case $DISTRIBUTOR in # Python dependencies DO NOT TOUCH IT !!!!!!!!!!!!!!!!
       curl \
       git \
       libyaml-dev \
-      python2.7-dev \
-      python2.7-pip \
-      python2.7-setuptools \
-      python2.7-virtualenv \
+      python-dev \
+      python-pip \
+      python-setuptools \
+      python-virtualenv \
       zlib1g-dev \
       virtualenv
     ;;
