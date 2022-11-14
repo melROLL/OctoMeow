@@ -40,7 +40,8 @@ function setup_venv {
   set -e
   mkdir ${HOMEDIR}/OctoPrint
   cd ${HOMEDIR}/OctoPrint
-  virtualenv -p /usr/bin/python3 --quiet venv
+  #virtualenv -p /usr/bin/python3 --quiet venv
+    virtualenv -p /usr/bin/python --quiet venv
   source venv/bin/activate
   pip install pip --upgrade
   #pip install octoprint # neet to put denis octoprint here
