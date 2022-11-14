@@ -44,7 +44,7 @@ function setup_venv {
   source venv/bin/activate
   pip install pip --upgrade
   #pip install octoprint # neet to put denis octoprint here
-  pip install git+ https://github.com/denpat/Octoprint138WASP
+  pip install git+https://github.com/denpat/Octoprint138WASP
 }
 
 export -f setup_venv
